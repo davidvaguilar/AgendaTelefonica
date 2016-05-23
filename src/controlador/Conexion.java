@@ -14,9 +14,9 @@ import java.sql.DriverManager;
  */
 public class Conexion {
     
-    public static final String URL= "jdbc:mysql://localhost:3306/AgendaTelefonica";
-    public static final String USERNAME= "alumno";
-    public static final String PASSWORD= "alu";
+    public static final String URL= "jdbc:mysql://192.168.0.2:3306/AgendaTelefonica?zeroDateTimeBehavior=convertToNull";
+    public static final String USERNAME= "15979446";
+    public static final String PASSWORD= "david";
     
    
     
